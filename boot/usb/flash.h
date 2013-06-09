@@ -39,7 +39,7 @@ struct ptentry
 {
     char name[16];
     unsigned start;
-    unsigned length;
+    unsigned int length;
     unsigned flags;
 };
 

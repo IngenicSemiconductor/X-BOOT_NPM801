@@ -46,7 +46,7 @@ static void cpu_mux_select(int pll){
 	/* init CPU, L2CACHE, AHB0, AHB2, APB clock */
 //	int div[] = {10, 5, 3, 2, 1};
 #if CFG_CPU_SPEED >= (1000 * 1000000)
-	int div[] = {12, 6, 3, 2, 1};
+	int div[] = {12, 6, 4, 2, 1};
 #else
 	/* TCU sampling external clock: APB >= (CFG_EXTAL * 2) */
 	int div[] = {6, 6, 3, 2, 1}; /* CFG_EXTAL == (48 * 1000000) */
