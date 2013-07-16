@@ -105,7 +105,7 @@
 #define CONFIG_BOOTDELAY	1
 #define CONFIG_BOOTFILE	        "zImage"	/* file to load */
 
-#define CONFIG_BOOTARGS		"mem=256M@0x0 mem=752M@0x30000000 console=ttyS3,57600n8 ip=off root=/dev/ram0 rw rdinit=/init pmem_camera=16M@0x5f000000"
+#define CONFIG_BOOTARGS		"mem=256M@0x0 mem=752M@0x30000000 console=ttyS3,57600n8 ip=off root=/dev/ram0 rw rdinit=/init pmem_camera=16M@0x5f000000 androidboot.serialno=npm801"
 
 #define CFG_AUTOLOAD		"n"		/* No autoload */
 #define CONFIG_CMDLINE_EDITING	1
